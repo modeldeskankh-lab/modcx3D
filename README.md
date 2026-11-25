@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# modcx3D
+### Browser-Based WebGL 3D Scene Design & Development Studio
 
-# Run and deploy your AI Studio app
+modcx3D is a browser-based 3D development workspace designed for creating, editing, and managing WebGL game scenes directly in the browser.
 
-This contains everything you need to run your app locally.
+Build interactive 3D environments with real-time rendering, inspect GLTF and GLB assets, create physically based rendering (PBR) materials, configure physical skies and environmental lighting, and export standalone 3D scenes.
 
-View your app in AI Studio: https://ai.studio/apps/b0247659-52e5-4c54-8d57-22057787d00a
+### Core Capabilities
 
-## Run Locally
+- **3D Scene Design:** Create, arrange, and edit objects in a real-time 3D viewport.
+- **GLTF / GLB Asset Inspection:** Import, inspect, and manage 3D assets.
+- **PBR Material Editing:** Customize surface properties and material appearance.
+- **Environment & Physical Skies:** Configure skies, environmental settings, and lighting.
+- **Scene Management:** Organize scene objects and manage project data.
+- **Real-Time Rendering:** Preview scene changes directly in the browser.
+- **Scene Export:** Export standalone 3D scenes and project files.
 
-**Prerequisites:**  Node.js
+**Create. Design. Inspect. Render. Export.**
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+modcx3D brings essential 3D scene creation and editing tools into one browser-based workspace.
