@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #13151b;
+    color: #e2e8f0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Custom dark scrollbar for Unity editor styling */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #14161d;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #282d38;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3b4252;
+  }
+
+  canvas {
+    touch-action: none;
+    display: block;
+  }
+}
