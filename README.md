@@ -4,6 +4,11 @@
 modcx3D is a browser-based 3D development workspace designed for creating, editing, and managing WebGL game scenes directly in the browser.
 
 Build interactive 3D environments with real-time rendering, inspect GLTF and GLB assets, create physically based rendering (PBR) materials, configure physical skies and environmental lighting, and export standalone 3D scenes.
+
+modcx3D | Official Product Demo
+
+https://youtu.be/Up0GAqSugPw
+
 ## 01. 3D Scene Editor
 
 Manage your 3D projects and access your creative workspace.
